@@ -8,5 +8,6 @@ namespace Domain;
 
 public class Category
 {
-
+    public Guid CategoryID { get; set; }
+    public string Name { get; set; } = string.Empty;
 }
