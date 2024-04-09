@@ -8,5 +8,9 @@ namespace Domain;
 
 public class Order
 {
-
+    public Guid OrderId { get; set; }
+    public Guid UserID { get; set; }
+    public int OrderTotal { get; set; }
+    public DateTime OederPlaced { get; set; }
+    public bool OrderPaid { get; set; }
 }
