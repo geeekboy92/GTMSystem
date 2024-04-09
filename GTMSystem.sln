@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{085AA3E3-3A29-4F1B-BE48-665B9F0DFDEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C4EA415E-1C5B-4B76-B92B-3C1385BE25F2}"
+	ProjectSection(SolutionItems) = preProject
+		Des.txt = Des.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{34F86895-0091-4875-A5D7-EE0670DA932C}"
 EndProject
@@ -13,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastuct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D72A9B42-C671-4D03-A503-3CA26C641127}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A3A2DE08-10CE-4C97-9F10-92D6DC4B7EF6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{A3A2DE08-10CE-4C97-9F10-92D6DC4B7EF6}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
