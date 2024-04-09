@@ -10,4 +10,5 @@ public class Category
 {
     public Guid CategoryID { get; set; }
     public string Name { get; set; } = string.Empty;
+    public ICollection<Event>? Events { get; set; }
 }
